@@ -1,4 +1,8 @@
-FROM debian:stable-slim
+#FROM debian:stable-slim
+#FROM debian:buster-slim
+FROM python:3.7.7-buster
+#FROM python:3.7.7-slim-buster
+#FROM python:3.7.7-alpine3.12
 MAINTAINER elceef@gmail.com
 
 WORKDIR /opt/dnstwist
