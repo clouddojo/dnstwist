@@ -1,0 +1,16 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+dnspython = ">=1.14.0"
+requests = ">=2.20.0"
+ppdeep = ">=20200505"
+whois = ">=0.7"
+tld = ">=0.9.1"
+
+[requires]
+python_version = "3.8"
