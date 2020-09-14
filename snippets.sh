@@ -6,6 +6,6 @@ time docker build -t dnstwist . && time docker run dnstwist -gmab -f csv short.c
 # a = all
 # b = site banner
 # run in local env
-./dnstwist.py short.com
+./dnstwist.py -r short.com
 ./dnstwist.py -mab short.com
 ./dnstwist.py -mab -f json short.com | tee results.json | jq '.'
